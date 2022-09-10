@@ -1,0 +1,268 @@
+/* Cabeçalho */
+header {
+    background-color: #122a57;
+    color: #fff;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+header .flex-container {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+
+}
+
+nav .cabecalho-menu {
+    display: flex;
+    justify-content: space-around;
+    min-width: 320px;
+    max-width: 992px;
+    width: 100%;
+}
+
+li a {
+    color: #fff;
+    font-size: 18px;
+}
+
+/* Seção Flex turismos */
+main .section-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 250px 0;
+}
+
+main section .flexturismos {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    width: 50%;
+    gap: 5px;
+}
+
+main section h2 {
+    color: #122a57;
+    font-size: 50px;
+}
+
+main section h3 {
+    font-size: 15px;
+
+}
+
+main section a button {
+    width: 220px;
+    height: 50px;
+    background-color: #122a57;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 15px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+/* Seção quem somos */
+main .section-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    margin-right: 195px;
+    margin-left: 195px;
+}
+
+main .section-2 .box-text {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+main .section-2 img {
+    min-width: 420px;
+}
+
+
+main .section-2 h2::before {
+    content: "";
+    width: 5px;
+    height: 50px;
+    background-color: #122a57;
+    margin-right: 5px;
+    position: relative;
+}
+
+
+main .section-2 h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+
+main .section-2 p {
+    margin-bottom: 10px;
+    width: 62%;
+}
+
+/* Seção Serviços */
+main .section-3 {
+    background-color: #122a57;
+    display: flex;
+    width: 100%;
+    height: 470px;
+}
+
+
+main .section-3 .servicos {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 992px;
+    min-width: 320px;
+    margin: auto;
+
+}
+
+main .section-3 .container-servicos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main .section-3 .container-servicos .gap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .section-3 img {
+    width: 160px;
+    height: 160px;
+
+}
+
+main .section-3 h2 {
+    color: #fff;
+    font-size: 32px;
+    padding-bottom: 20px;
+    ;
+}
+
+main .section-3 h3 {
+    color: #fff;
+    text-align: center;
+    margin: 15px 0;
+    font-size: 18px;
+}
+
+main .button-white {
+    background-color: #fff;
+    color: #122a57;
+    width: 110px;
+    height: 25px;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+/* Seção Planos */
+
+main .section-4 .column-planos {
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    min-height: 100vh;
+    padding: 50px 10px;
+    max-width: 992px;
+    min-width: 320px;
+    margin: 0 195px;
+}
+
+main .section-4 .planos {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+main .section-4 .box-planos {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border: 5px #122a57 solid;
+    padding: 20px;
+}
+
+main .section-4 h2 {
+    color: #000;
+    font-size: 32px;
+}
+
+main .section-4 h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+main .section-4 h3::after {
+    content: "";
+    background-color: #122a57;
+    width: 100%;
+    height: 3px;
+    margin: 20px 0;
+}
+
+main .section-4 ul {
+    margin-bottom: 20px;
+}
+
+main .section-4 ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1px;
+}
+
+main .section-4 ul li::before {
+    content: "";
+    background-color: #122a57;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+}
+
+
+
+/* Rodapé */
+
+footer {
+    background-color: #122a57;
+    height: 70px;
+    width: 100%;
+}
+
+footer .flex-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    max-width: 992px;
+    margin: auto;
+    width: 100%;
+    min-width: 320px;
+    padding: 10px 15px;
+}
+
+footer h3,
+footer a {
+    color: #fff;
+    font-size: 1em;
+}
